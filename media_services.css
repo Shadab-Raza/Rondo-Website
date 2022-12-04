@@ -309,14 +309,14 @@
     .serviceConfidence_container{
         /* border: 1px solid black; */
         width: 100%;
-        height: 165vh;
+        height: auto;
         display: flex;
         align-items: flex-start;
     }
     
     .serviceConfidence_container .content_wrapper{
         /* border: 1px solid black; */
-        height: 100%; /*90vh*/
+        height: auto;
         padding: 50px 40px;
         display: flex;
         flex-direction: column;
@@ -335,27 +335,51 @@
     
     .serviceConfidence_container .content_wrapper .left_content .serviceConfidence_title h5{ 
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 16px;
     }
     
     .serviceConfidence_container .content_wrapper .left_content .serviceConfidence_heading h3{
         width: 100%;
         font-weight: 500;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 40px;
     }
     
     .serviceConfidence_container .content_wrapper .left_content .serviceConfidence_para p{
         width: 90%;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 22px;
     }
     
     .serviceConfidence_container .content_wrapper .left_content .serviceConfidence_image{
         width: 100%;
         height: 292.05px;
+    }
+
+    .serviceConfidence_container .content_wrapper .left_content .services_point{
+        /* border: 1px solid black; */
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 18px;
+    }
+    
+    .serviceConfidence_container .content_wrapper .left_content .services_point h2{
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 106%;
+        color: #000000;
+    }
+    
+    .serviceConfidence_container .content_wrapper .left_content .services_point ul li {
+        font-size: 1rem;
+        line-height: 100%;
+        color: #000000;
     }
     
     
@@ -374,19 +398,176 @@
         width: 100%;
         padding: 20px;
         gap: 10px;
-    }   
+    }  
+    
+    .serviceConfidence_container .content_wrapper .right_content .social_activities {
+        /* border: 1px solid black;  */
+        width: 100%;
+        gap: 18px;
+        margin-top: 18px;
+    }
+    
+    .serviceConfidence_container .content_wrapper .right_content .social_activities h2 {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    
+    .serviceConfidence_container .content_wrapper .right_content .social_activities ul li {
+        font-size: 1rem;
+        line-height: 100%;
+        color: #000000;
+    }
 }
 
 @media (max-height : 520px) {
     .serviceConfidence_container{
-        height: 255vh !important;
+        /* height: 255vh !important; */
+        height: auto;
     }
 }
 
 @media (max-height : 670px) {
     .serviceConfidence_container{
         /* border: 1px solid black; */
-        height: 200vh;
+        /* height: 200vh; */
+        height: auto;
+    }
+}
+
+
+/* Contact section */
+@media (max-width : 480px) {
+    .benefits_container{
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 70px;
+        padding: 80px 40px;
+    }
+    
+    .benefits_container .left_container{
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    
+    .benefits_container .left_container .benefit_title h5 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 19px;
+        color: #523514;
+    }
+    
+    .benefits_container .left_container .benefits_heading h2 {
+        font-family: 'Taviraj';
+        font-style: normal;
+        width: 90%;
+        font-weight: 500;
+        font-size: 1.7rem;
+        line-height: 115%;
+        color: #000000;
+    }
+    
+    .benefits_container .left_container .first_ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    
+    .benefits_container .left_container .first_ul li {
+        list-style: disc;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 100%;
+        color: #000000;
+    }
+    
+    .benefits_container .left_container .caregiver_benefit{
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 94%;
+        color: #000000;
+    }
+    
+    .benefits_container .left_container .second_ul{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    
+    .benefits_container .left_container .second_ul li {
+        list-style: disc;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 100%;
+        color: #000000;
+    }
+    
+    .benefits_container .image_container{
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .benefits_container .image_container img{
+        height: 100%;
+        width:80%;
+    }
+}
+
+@media (max-width : 480px) {
+    .benefits_container .left_container .benefits_heading h2 {
+        font-family: 'Taviraj';
+        font-style: normal;
+        width: 90%;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 115%;
+        color: #000000;
+    }
+    
+    .benefits_container .left_container .first_ul li {
+        list-style: disc;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 100%;
+        color: #000000;
+    }
+
+    .benefits_container .left_container .caregiver_benefit{
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .benefits_container .left_container .second_ul li {
+        list-style: disc;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.8rem;
+        line-height: 100%;
+        color: #000000;
     }
 }
 
