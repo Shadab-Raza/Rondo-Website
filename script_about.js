@@ -4,3 +4,17 @@ const navbar = document.getElementsByClassName("navbar")[0]
 toggleButton.addEventListener('click', () => {
     navbar.classList.toggle('active')
 });
+
+
+
+
+// FQA ContactForm JS
+const scriptURL = "https://script.google.com/macros/s/AKfycbzfEEhtB0VmfZ0s45_ZbmSDV3TpZ78k2ILjyP6ANCFaWJmKyMQyTIIbNpd32k52-FGDvg/exec"
+const form = document.forms['About-sheet']
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, {method: 'POST', body : new FormData(form)})
+        .then(response => alert('Thanks for Contacting us..! We Will Contact You Soon...'))
+        .catch(error => console.error('Error!', error.message))
+});

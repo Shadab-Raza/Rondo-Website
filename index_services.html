@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>service page</title>
+    <link rel="icon" type="image/x-icon" href="./Service_Image/PNG/fav-icon.png">
+
     <link rel="stylesheet" href="style_services.css">
     <link rel="stylesheet" href="media_services.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Taviraj:wght@500&display=swap" rel="stylesheet">
@@ -228,11 +230,11 @@
             </div> 
         </article>
 
-        <form action="#" class="contact_form">
+        <form action="#" class="contact_form" autocomplete="off" method="post" name="Service-sheet">
             <div class="details">
                 <div class="input_details">
                     <label for="fName">YOUR NAME<span style="color: #272727;"><sup>*</sup></span></label>
-                    <input type="text" name="Name" class="full_name" required>
+                    <input type="text" name="name" class="full_name" required>
                 </div>
 
                 <div class="input_details">
@@ -252,7 +254,7 @@
 
                 <div class="input_details message">
                     <label for="message">MESSAGE</label>
-                    <textarea id="msg" cols="131" rows="8" maxlength="5"> </textarea>
+                    <textarea id="msg" cols="131" rows="8" name="message"> </textarea>
         
                 </div> 
             </div>

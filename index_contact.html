@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact page</title>
+    <link rel="icon" type="image/x-icon" href="./Conatct Images/PNG/fav-icon.png">
+
     <!-- custom css link -->
     <link rel="stylesheet" href="style_contact.css">
     <link rel="stylesheet" href="media_contact.css">
@@ -90,11 +92,11 @@
             </div>
 
 
-            <form class="contact_form" name="contact" method="POST" data-netlify="true">
+            <form class="contact_form" autocomplete="off" method="post" name="Contact-sheet">
                 <div class="details">
                     <div class="input_details">
                         <label for="fName">YOUR NAME<span style="color: #272727;"><sup>*</sup></span></label>
-                        <input type="text" name="Name" class="full_name" required>
+                        <input type="text" name="name" class="full_name" required>
                     </div>
 
                     <div class="input_details">
@@ -114,7 +116,7 @@
 
                     <div class="input_details message">
                         <label for="message">MESSAGE</label>
-                        <textarea id="msg" cols="131" rows="8"> </textarea>
+                        <textarea id="msg" cols="131" rows="8" name="message"> </textarea>
             
                     </div> 
                 </div>
@@ -260,7 +262,7 @@
             </div>
 
             <!-- form part started from here -->
-            <form action="#" class="fqaContact_form">
+            <form action="#" class="fqaContact_form" autocomplete="off" method="post" name="FQA-sheet">
                 <div class="question_heading">
                     <h3>Ask a different question</h3>
                 </div>
@@ -268,7 +270,7 @@
                 <div class="details">
                     <div class="input_details">
                         <label for="fName">YOUR NAME<span style="color: #272727;"><sup>*</sup></span></label>
-                        <input type="text" name="Name" class="full_name" required>
+                        <input type="text" name="name" class="full_name" required>
                     </div>
 
                     <div class="input_details">
@@ -279,7 +281,7 @@
 
                     <div class="input_details message">
                         <label for="message">MESSAGE</label>
-                        <textarea id="msg" cols="131" rows="8" maxlength="5"> </textarea>
+                        <textarea id="msg" cols="131" rows="8" name="message"> </textarea>
             
                     </div>
                 </div>
