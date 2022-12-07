@@ -16,15 +16,3 @@ form.addEventListener('submit', e => {
         .then(response => alert('Thanks for Contacting us..! We Will Contact You Soon...'))
         .catch(error => console.error('Error!', error.message))
 });
-
-
-// FQA ContactForm JS
-const scriptsURL = "https://script.google.com/macros/s/AKfycbw3fkPlxKp6F9W7wTtm8-NuUS9PclvytB-v6dAlCfaVnvFTLcPr-fzy8_k2A1KaQTI1tg/exec"
-const myForm = document.forms['FQA-sheet']
-
-form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptsURL, {method: 'POST', body : new FormData(myForm)})
-        .then(response => alert('Thanks for Contacting us..! We Will Contact You Soon...'))
-        .catch(error => console.error('Error!', error.message))
-});
