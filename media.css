@@ -233,18 +233,6 @@
         font-size: 14px;
         margin-top: 30px;
     }
-    
-    .hero_article .hero_content .dots{
-        width: 12%;
-    }
-    
-    .hero_article .hero_content .dots .dot{
-        transform: translateY(50px);
-    }
-    
-    .hero_article .hero_content .dots .dot1{
-        transform: translateY(50px);
-    }
 }
 
 @media (max-width: 380px){
@@ -285,18 +273,6 @@
         height: 40px;
         font-size: 12px;
         margin-top: 28px;
-    }
-    
-    .hero_article .hero_content .dots{
-        width: 14%;
-    }
-    
-    .hero_article .hero_content .dots .dot{
-        transform: translateY(40px);
-    }
-    
-    .hero_article .hero_content .dots .dot1{
-        transform: translateY(40px);
     }
 }
 

@@ -200,33 +200,6 @@
     color: #F5F5F5;
 }
 
-
-.hero_article .hero_content .dots{
-    width: 8%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-
-.hero_article .hero_content .dots .dot{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #F69F3C;
-    transform: translateY(80px);
-}
-
-.hero_article .hero_content .dots .dot1{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: rgba(246, 159, 60, 0.36);
-    transform: translateY(80px);
-}
-
-
-
 /* Card Section  */
 .card_container{
     /* border: 2px solid black;  */
@@ -330,7 +303,6 @@
 
 .service_container .content_wrapper .heading{
     /* border: 1px solid black; */
-    width: 70%;
     font-family: 'Taviraj';
     font-style: normal;
     font-weight: 200;
