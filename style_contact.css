@@ -216,7 +216,7 @@
     /* border: 1px solid black; */
     width: 50%;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .content_wrapper .left_content .address_details .details_wrapper img{
@@ -354,17 +354,17 @@
 .visitingTiming_container{
     /* border: 1px solid black; */
     width: 100%;
-    height: 70vh;
+    height: auto;
     background: #FDECD8;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 70px 120px;
+
 }
 
 .visitingTiming_container .visiting_content{
     /* border: 1px solid black; */
-    width: 70%;
-    height: 80%;
     display: flex;
     gap: 15px;
 }
@@ -435,7 +435,6 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .visitingTiming_container .visiting_content .right_content .card{
@@ -457,6 +456,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 3px !important;
+}
+
+.visitingTiming_container .visiting_content .right_content .card .hrs_details {
     gap: 10px;
 }
 
@@ -493,16 +496,15 @@
 .FQA_Section{
     /* border: 1px solid black; */
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px 120px;
 }
 
 .FQA_Section .fqaContent_wrapper{
     /* border: 1px solid black; */
-    width: 85%;
-    height: 95vh;
     display: flex;
     gap: 15px;
 }
@@ -593,12 +595,12 @@
 .FQA_Section .fqaContact_form{
     /* border: 1px solid black; */
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 40px;
-    padding: 80px 0px 0px 90px; 
+   
+    gap: 30px;
+    padding: 100px 0px 0px 90px; 
 }
 
 .FQA_Section .fqaContact_form h3{
@@ -667,8 +669,8 @@
 }
 
 .FQA_Section .fqaContact_form .submit_btn{
-    width: 20%;
-    height: 6%;
+    width: 25%;
+    height: 8%;
     border: 3px solid #F69F3C;
     border-radius: 5px;
     display: flex;

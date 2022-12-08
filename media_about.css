@@ -227,7 +227,7 @@
     .intro_container{
         /* border: 1px solid black; */
         width: 100%;
-        height: 150vh !important;
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         gap: 20px;
@@ -287,7 +287,7 @@
     .firstAboutUs_container{
         /* border: 1px solid black; */
         width: 100%;
-        height: 145vh;
+        height: auto;
         background: #FDECD8;
         display: flex;
         flex-direction: column;
@@ -351,7 +351,7 @@
     .secondAboutUs_container{
         /* border: 1px solid black; */
         width: 100%;
-        height: 135vh;
+        height: auto;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
@@ -411,7 +411,7 @@
     .ourTeam_container{
         /* border: 1px solid black; */
         width: 100%;
-        height: 300vh !important;
+        height: auto;
         gap: 20px;
     }
     

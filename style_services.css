@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
-    padding: 10px 110px 0px 110px;
+    padding: 10px 120px;
 }
 
 /* Hamburger CSS */
@@ -171,24 +171,24 @@
 }
 
 .hero_article .hero_content h3{
-    width: 60%;
+    width: 65%;
     font-family: 'Taviraj';
     font-style: normal;
     font-weight: 300;
     font-size: 62px;
-    line-height: 65px;
+    line-height: 70px;
     text-align: center;
     color: #F5F5F5;
 }
 
 .hero_article .hero_content p{
     /* border: 1px solid black; */
-    width: 52%;
+    width: 65%;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 110%;
+    line-height: 130%;
     margin-top: 30px;
     text-align: center;
     color: #F5F5F5;

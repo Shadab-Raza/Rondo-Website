@@ -355,7 +355,7 @@
 @media (max-width: 480px){
     .service_container{
         /* border: 1px solid black; */
-        height: 130vh;
+        height: auto;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -452,7 +452,7 @@
 @media (max-width: 390px){
     .service_container{
         /* border: 1px solid black; */
-        height: 125vh;
+        height: auto;
     }
 
     .service_container .content_wrapper{
@@ -531,7 +531,7 @@
 @media (max-width: 388px){
     .service_container{
         /* border: 1px solid black; */
-        height: 130vh;
+        height: auto;
     }
     
     .service_container .image_wrapper .images .SerImg{
@@ -542,7 +542,7 @@
 @media (max-height: 580px){
     .service_container{
         /* border: 1px solid black; */
-        height: 180vh;
+        height: auto;
         gap: 10px;
         margin-top: 20px;
     }
