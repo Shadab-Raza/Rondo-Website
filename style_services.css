@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
+    
 }
 
 /* Hero Section */
@@ -74,6 +74,10 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.hero_container .nav_header .navbar .navbar_links ul li{
+    list-style: none;
 }
 
 .hero_container .nav_header .navbar .navbar_links ul li a{
@@ -200,10 +204,10 @@
 .ourService_container{
     /* border: 1px solid black; */
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     gap: 15px;
-    padding: 90px 100px;
+    padding: 5.625rem 7.5rem;
 }
 
 .ourService_container .left_content{
@@ -267,276 +271,234 @@
 
 
 /* Services Section  */
-.serviceConfidence_container{
+.serviceConfidence_container {
     /* border: 1px solid black; */
     width: 100%;
-    height: auto;
     display: flex;
-    align-items: center;
-}
-
-.serviceConfidence_container .content_wrapper{
-    /* border: 1px solid black; */
-    width: 100%;
-    height: auto;
+    gap: 2rem;
     background: #FDECD8;
-    padding: 60px 100px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    padding: 6rem 7.5rem;
 }
 
-.serviceConfidence_container .content_wrapper .left_content{
-    /* border: 1px solid black;  */
+.serviceConfidence_container .left_card {
+    /* border: 1px solid black; */
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 15px;
+    gap: 2rem;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .serviceConfidence_title h5{ 
+.serviceConfidence_container .left_card .articles {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.serviceConfidence_container .left_card .articles .title h6{
     font-family: 'Josefin Sans';
     font-weight: 600;
-    font-size: 19.0426px;
-    line-height: 19px;
+    font-size: 1.19rem;
+    line-height: 1.88rem;
     color: #440704;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .serviceConfidence_heading h3{
-    /* border: 1px solid black; */
-    width: 80%;
+.serviceConfidence_container .left_card .articles .heading h1 {
     font-family: 'Taviraj';
-    font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 3rem;
+    line-height: 121%;
     color: #000000;
+    width: 90%;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .serviceConfidence_para p{
-    /* border:  1px solid black; */
-    width: 94%;
+.serviceConfidence_container .left_card .articles .para p {
     font-family: 'Josefin Sans';
+    font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 122%;
     color: #000000;
+    width: 90%;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .serviceConfidence_image{
-    /* border: 1px solid black; */
-    width: 94%;
-    height: 292.05px;
-    border-radius: 4.73528px;
-}
-
-.serviceConfidence_container .content_wrapper .left_content .serviceConfidence_image img{
-    width: 100%;
-    height: 100%;
-}
-
-.serviceConfidence_container .content_wrapper .left_content .services_point{
-    /* border: 1px solid black; */
-    width: 88%;
+.serviceConfidence_container .left_card .card_container {
     display: flex;
     flex-direction: column;
-    gap: 18px;
-    margin-top: 18px;
+    gap: 2rem;
+    padding-top: 4rem;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .services_point h2{
+.serviceConfidence_container .left_card .card_container .card_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 0rem;
+    background: #FFFFFF;
+    border-radius: 0.625rem;
+}
+
+.serviceConfidence_container .left_card .card_container .card_1 h1 {
     font-family: 'Taviraj';
-    font-style: normal;
     font-weight: 500;
     font-size: 2rem;
     line-height: 106%;
+    text-align: center;
     color: #000000;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .services_point ul {
+.serviceConfidence_container .left_card .card_container .card_1 ul {
+    text-align: center;
+    list-style-position: inside;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    padding-left: 20px;
+    gap: 0.75rem;
+    width: 80%;
 }
 
-.serviceConfidence_container .content_wrapper .left_content .services_point ul li {
-    list-style: disc;
+.serviceConfidence_container .left_card .card_container .card_1 ul li {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     line-height: 100%;
+    text-align: center;
     color: #000000;
 }
 
-.serviceConfidence_container .content_wrapper .right_content{
-    /* border: 1px solid black;  */
+.serviceConfidence_container .left_card .card_container .card_2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 0rem;
+    background: #FFFFFF;
+    border-radius: 0.625rem;
+}
+
+.serviceConfidence_container .left_card .card_container .card_2 h1 {
+    font-family: 'Taviraj';
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 94%;
+    text-align: center;
+    color: #000000;
+}
+
+.serviceConfidence_container .left_card .card_container .card_2 ul {
+    text-align: center;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 80%;
+}
+
+.serviceConfidence_container .left_card .card_container .card_2 ul li {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+}
+
+
+.serviceConfidence_container .right_container {
+    /* border: 1px solid black; */
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 25px;
+    gap: 2rem;
 }
 
-.serviceConfidence_container .content_wrapper .right_content .card{
-    /* border: 1px solid black;  */
-    width: 70%;
-    padding: 10px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.serviceConfidence_container .content_wrapper .right_content .card h5{
-    font-family: 'Taviraj';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 20px;
-    color: #000000;
-}
-
-.serviceConfidence_container .content_wrapper .right_content .card p{
-    font-family: 'Josefin Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #000000;
-}
-
-.serviceConfidence_container .content_wrapper .right_content .social_activities {
-    /* border: 1px solid black; */
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    margin-top: 18px;
-}
-
-.serviceConfidence_container .content_wrapper .right_content .social_activities h2 {
-    font-family: 'Taviraj';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 94%;
-    color: #000000;
-}
-
-.serviceConfidence_container .content_wrapper .right_content .social_activities ul {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding-left: 20px;
-}
-
-.serviceConfidence_container .content_wrapper .right_content .social_activities ul li {
-    list-style: disc;
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 100%;
-    color: #000000;
-}
-
-
-/* Benefits Section */
-.benefits_container{
-    /* border: 1px solid black; */
+.serviceConfidence_container .right_container .card_3 {
     width: 100%;
     display: flex;
-    gap: 80px;
-    padding: 100px;
-}
-
-.benefits_container .left_container{
-    /* border: 1px solid black; */
-    display: flex;
     flex-direction: column;
-    gap: 18px;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 0rem;
+    background: #FFFFFF;
+    border-radius: 0.625rem;
 }
 
-.benefits_container .left_container .benefit_title h5 {
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.2rem;
-    line-height: 19px;
-    color: #523514;
-}
-
-.benefits_container .left_container .benefits_heading h2 {
+.serviceConfidence_container .right_container .card_3 h1 {
     font-family: 'Taviraj';
-    font-style: normal;
-    width: 80%;
     font-weight: 500;
     font-size: 2rem;
-    line-height: 115%;
+    line-height: 106%;
+    text-align: center;
     color: #000000;
 }
 
-.benefits_container .left_container .first_ul {
-    width: 85%;
+.serviceConfidence_container .right_container .card_3 ul {
+    text-align: center;
+    list-style-position: inside;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding-left: 20px;
+    gap: 0.75rem;
+    width: 75%;
 }
 
-.benefits_container .left_container .first_ul li {
-    list-style: disc;
+.serviceConfidence_container .right_container .card_3 ul li {
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     line-height: 100%;
+    text-align: center;
     color: #000000;
 }
 
-.benefits_container .left_container .caregiver_benefit{
-    font-family: 'Taviraj';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 94%;
-    color: #000000;
-}
+/*  */
 
-.benefits_container .left_container .second_ul{
-    width: 85%;
+.serviceConfidence_container .right_container .card_4 {
+    width: 75%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding-left: 20px;
-}
-
-.benefits_container .left_container .second_ul li {
-    list-style: disc;
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 100%;
-    color: #000000;
-}
-
-.benefits_container .image_container{
-    /* border: 1px solid black; */
-    width: 50%;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
+    gap: 1.25rem;
+    padding: 2.25rem 0rem;
+    background: #FFFFFF;
+    border-radius: 0.625rem;
 }
 
-.benefits_container .image_container img{
-    height: 100%;
-    width:80%;
+.serviceConfidence_container .right_container .card_4 h1 {
+    font-family: 'Taviraj';
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 106%;
+    text-align: center;
+    color: #000000;
+}
+
+.serviceConfidence_container .right_container .card_4 ul {
+    text-align: center;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 75%;
+}
+
+.serviceConfidence_container .right_container .card_4 ul li {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
 }
 
 /* Contact section */
@@ -710,14 +672,18 @@ footer .copyright{
     color: #000000;
 }
 
-
 footer .footer_logo{
     /* border: 1px solid black; */
-    width: 6%;
+    width: 7%;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer .footer_logo img {
+    width: 100%;
+    height: 100%;
 }
 
 footer .privacy{
