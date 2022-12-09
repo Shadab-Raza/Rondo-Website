@@ -448,8 +448,9 @@
     width: 52%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 1rem;
     flex-wrap: wrap;
+    padding-top: 2rem;
 }
 
 .highlighted_container .highlighted_wrapper .highlighted_article h3{
