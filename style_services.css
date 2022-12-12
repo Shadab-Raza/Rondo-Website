@@ -214,8 +214,8 @@
     padding: 30px 0px 0px 90px;
 }
 
-.ourService_container .right_container .service_title{
-    width: 60%;
+.ourService_container .right_container .service_title h5{
+    width: 100%;
     font-family: 'Josefin Sans';
     font-weight: 600;
     font-size: 19.0426px;
