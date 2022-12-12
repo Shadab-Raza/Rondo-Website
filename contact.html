@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="style_contact.css">
     <link rel="stylesheet" href="media_contact.css">
 
-    <!-- bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- font link -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Taviraj:wght@500&display=swap" rel="stylesheet">
@@ -20,7 +18,7 @@
 <body>
     <!-- Hero Section -->
     <section class="hero_container">
-        <header class="nav_header">
+        <!-- <header class="nav_header">
             <div class="navLogo">
                 <img src="./Conatct Images/WEBP/Rondo-Nav-logo.webp" alt="rondo_logo">
             </div>
@@ -46,8 +44,32 @@
                 <span class="bar"></span>
                 <span class="bar"></span>
             </a>
-        </header>
+        </header> -->
 
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="./Conatct Images/WEBP/Rondo-Nav-logo.webp" alt="rondo_logo">
+            </a>
+    
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+    
+            <ul class="navbar-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+    
+              <!-- nav-btn -->
+              <div class="numBtn_wrapper">
+                <p>(651) 528-6409</p>
+    
+                <a href="contact.html" class="navBtn">Book Appointment</a>
+              </div>
+            </ul>
+        </nav>
 
         <div class="currentPage">
             <p>Home / <span class="about_color">Contact</span></p>
@@ -75,7 +97,7 @@
 
                         <div class="details">
                             <h6>Contact:</h6>
-                            <p>(651) 528-6409</p>
+                            <p>(651) 528-6409</p> <br>
                             <h6>Fax number:</h6>
                             <p>(651) 900-7696</p>
                         </div>
@@ -180,89 +202,79 @@
     <section class="FQA_Section">
         <div class="fqaContent_wrapper">
             <div class="left_content">
-                <div class="fqa_title">
-                    <h3>FAQ's</h3>
-                </div>
-    
-                <div class="fqa_headings">
-                    <h3>Frequently asked questions</h3>
+                <div class="heading">
+                    <h6>FAQ's</h6>
+                    <h1>Frequently asked 
+                        questions</h1>
                 </div>
 
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="container">    
 
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            1. Are you a daycare centre?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                    <div class="faq-drawer">
+                      <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer">1. Are you a daycare centre?</label>
+                      <div class="faq-drawer__content-wrapper">
+                        <div class="faq-drawer__content">
+                          <p>
                             No, we are not; we are an adult day services centre.
+                          </p>
                         </div>
                       </div>
                     </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            2. Are you an assisted senior leaving centre?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
+                    
+                    <div class="faq-drawer">
+                      <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">2.  Are you an assisted senior leaving centre? </label>
+                      <div class="faq-drawer__content-wrapper">
+                        <div class="faq-drawer__content">
+                          <p>
                             No, we are not; we are an adult day services centre.
+                          </p>
                         </div>
                       </div>
                     </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            3. How long does it take to sign up for an elder for your services?
-                        </button>
-                      </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">It will take about 3 - 5 business days; 
-                            please note that some clients take longer.</div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFour">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
-                            4. What are some of the social activities?
-                          </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                                - Arts & Crafts &nbsp
-                                - Movies &nbsp
-                                - Exercise &nbsp
-                                - Field Trips &nbsp
-                                - Games (bingo, ring toss, etc.) &nbsp
-                                - Holiday Parties &nbsp
-                                - Relaxation Techniques &nbsp
+        
+                    <div class="faq-drawer">
+                        <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">3. How long does it take to sign up for an elder for your services?</label>
+                        <div class="faq-drawer__content-wrapper">
+                          <div class="faq-drawer__content">
+                            <p>
+                                It will take about 3 - 5 business days; 
+                                please note that some clients take longer.
+                            </p>
                           </div>
                         </div>
+                      </div>
+                    
+                    <div class="faq-drawer">
+                      <input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-4">4. What are some of the social activities?</label>
+                      <div class="faq-drawer__content-wrapper">
+                        <div class="faq-drawer__content">
+                          <p>
+                            -Arts & Crafts<br>
+                            -Movies<br>
+                            -Exercise<br>
+                            -Field Trips<br>
+                            -Games (bingo, ring toss, etc.)<br>
+                            -Holiday Parties<br>
+                            -Relaxation Techniques         
+                          </p>
+                        </div>
+                      </div>
                     </div>
 
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFive">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                            5. Where are you located, and how can we contact you?
-                          </button>
-                        </h2>
-                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            Here is our contact and location information Contact:
-                            Tel: (651) 528-6409
-                            Address: 360 University Ave W Suite 101 Saint Paul MN 55103
+                    <div class="faq-drawer">
+                        <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-5">5. Where are you located, and how can we contact you?</label>
+                        <div class="faq-drawer__content-wrapper">
+                          <div class="faq-drawer__content">
+                            <p>
+                                Here is our contact and location information Contact:
+                                Tel: (651) 528-6409
+                                Address: 360 University Ave W Suite 101 Saint Paul MN 55103         
+                            </p>
                           </div>
                         </div>
-                    </div>
-
-                </div>
+                      </div>
+                    
+                </div>  
             </div>
 
             <!-- form part started from here -->
@@ -308,10 +320,6 @@
     </footer>
 
 
-
-    
-    <!-- bootstrap js link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- JavaScript file -->
     <script src="script_contact.js"></script>
